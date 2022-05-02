@@ -4,7 +4,7 @@ import ButtonCard from './ButtonCard';
 import '../styles/quoteStyle.css'
 
 const QuoteBox = () => {
-    const colors = ['#1A0E5A', '#FFD8BE', '#FCBA04', '#A50104', '#BB4430', '#262322', '#4B2E39', '#0D0221', '#104547']
+    const colors = ['#1A0E5A', '#FFD8BE', '#FCBA04', '#A50104', '#BB4430', '#262322', '#4B2E39', '#0D0221', '#104547', '#e493ff','#ff83b2','#ffc96b','#e1ff96','#70ffff' ]
    
     const colorRandom = () =>{
         return Math.floor(Math.random() * colors.length)       

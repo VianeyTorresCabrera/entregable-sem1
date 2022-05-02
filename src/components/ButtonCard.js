@@ -5,7 +5,7 @@ const ButtonCard = ({clickRandom , randomColor}) => {
         <button onClick={clickRandom} 
         className='btn'
         style={{backgroundColor: randomColor}}
-        > &#62; </button>
+        >&#187; </button>
     );
 }
 
